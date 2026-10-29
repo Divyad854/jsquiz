@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript MCQ Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz">
+
+        <h1>🧠 JavaScript MCQ Quiz</h1>
+
+        <div class="top-bar">
+
+            <p id="questionNumber">Question 1 of 5</p>
+
+            <p id="timer">⏱️ Time: 3:00</p>
+
+        </div>
+
+
+        <!-- Start Quiz -->
+
+        <button id="startButton">▶️ Start Quiz</button>
+
+
+        <!-- Question -->
+
+        <h2 id="question">
+            Click Start Quiz to begin
+        </h2>
+
+
+        <!-- Answer Options -->
+
+        <div id="answers" class="answers">
+
+            <label>
+                <input type="radio" name="answer" value="A">
+                <span id="optionA">Option A</span>
+            </label>
+
+            <label>
+                <input type="radio" name="answer" value="B">
+                <span id="optionB">Option B</span>
+            </label>
+
+            <label>
+                <input type="radio" name="answer" value="C">
+                <span id="optionC">Option C</span>
+            </label>
+
+            <label>
+                <input type="radio" name="answer" value="D">
+                <span id="optionD">Option D</span>
+            </label>
+
+        </div>
+
+
+        <!-- Message -->
+
+        <p id="message"></p>
+
+
+        <!-- Score -->
+
+        <div class="score-info">
+
+            <p id="score">Score: 0</p>
+
+            <p>Correct: +1</p>
+
+            <p>Wrong: -0.25</p>
+
+        </div>
+
+
+        <!-- Next -->
+
+        <button id="nextButton">Next</button>
+
+
+        <!-- Final Result -->
+
+        <div id="result"></div>
+
+
+        <!-- Restart -->
+
+        <button id="restartButton">🔄 Restart Quiz</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
